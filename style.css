@@ -9,6 +9,7 @@
     --fonte01: "Passion One", sans-serif;
 }
 h1 {
+  
     font-family:var(--fonte) ;
     font-weight: lighter;
     text-align: center;
@@ -27,9 +28,10 @@ section.q1 {
 
 
 section > p {
-    font-size: 3.1vh;
+  line-height: 2em;
+    font-size: 4vh;
     color: white;
-    background-color: rgba(0, 0, 0, 0.649);
+    background-color: rgba(0, 0, 0, 0.402);
     border: 1px solid rgba(0, 0, 0, 0.49);
     width: 300px;
     height: 300px;
@@ -42,14 +44,15 @@ section > p {
 }
 section > p.dif {
     color:white;
-   
+   line-height: 2em;
   text-align: unset;
-  font-size: 3.1vh;
+  font-size: 4vh;
   display: inline-flex;
   padding-bottom: 5vh;
   padding-left: 5vh;
 }
 section.q2 {
+  
     background-color: white;
 }
 #a {
@@ -65,14 +68,20 @@ section.q2 {
    background-size: cover;
 }
 #c {
+  
      background-image: url(imagens/background002.jpg);
   background-position: right center;
   background-attachment: fixed;
   background-size: cover;
+  
 }
 #d {
    background-image: url(imagens/background001.jpg);
    background-position: center center;
    background-attachment: fixed;
    background-size: cover; 
+}
+footer {
+  font-size:1em;
+  
 }
